@@ -91,4 +91,12 @@ int main(){
     insertnumber(&root, 16);
 
     printtree(root);
+
+    printf("%d (%d)\n", 16 , findnumber(root, 16));
+    printf("%d (%d)\n", 15 , findnumber(root, 15));
+    printf("%d (%d)\n", 5 , findnumber(root, 5));
+    printf("%d (%d)\n", 115 , findnumber(root, 115));
+    printf("%d (%d)\n", 1 , findnumber(root, 1));
+    printf("%d (%d)\n", 7 , findnumber(root, 7));
+
 }
